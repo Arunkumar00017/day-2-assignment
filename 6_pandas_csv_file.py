@@ -29,7 +29,6 @@ def main():
                 iss_data.append(data)
                 records_collected += 1
             time.sleep(1)
-            print(data)
         except requests.exceptions.RequestException as e:
             print(f"Request exception: {e}")
             time.sleep(5)
