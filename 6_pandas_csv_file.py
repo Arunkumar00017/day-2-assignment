@@ -18,7 +18,7 @@ def fetch_iss_data():
 
 
 def main():
-    records_needed = 1
+    records_needed = 100
     records_collected = 0
     iss_data = []
 
